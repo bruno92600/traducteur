@@ -69,7 +69,7 @@ export default function VoiceRecorder({ handleSetText }) {
       <button
         type="button"
         onClick={toggleRecording}
-        className={`w-12 h-12 rounded-full border flex items-center justify-center ${
+        className={`w-12 h-12 rounded-full bg-slate-400 border flex items-center justify-center ${
           isRecording ? "bg-red-500 text-white" : ""
         }`}
       >
